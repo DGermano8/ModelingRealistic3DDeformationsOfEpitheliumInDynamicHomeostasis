@@ -288,8 +288,7 @@ public:
         cell_population.AddCellWriter<CellProliferativeTypesWriter>();
         cell_population.AddCellWriter<CellAncestorWriter>();
         cell_population.AddPopulationWriter<CellPopulationEpithelialWriter>();
-        cell_population.AddPopulationWriter<NodeVelocityWriter>();
-
+ 
         //To fix paraview
         cell_population.SetWriteVtkAsPointsDom(true);
 
